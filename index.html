@@ -142,16 +142,46 @@
     <script src="gap.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
         (function($) {
+            function parse_url(url_string) {
+                url_string = url_string.substr(1);
+                var params = url_string.split("&");
+                var obj = {};
+                params.forEach(function(param) {
+                    var kv = param.split("=");
+                    obj[kv[0]] = kv[1];
+                });
+                return obj;
+            }
+
             // https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Math/random
             // Returns a random integer between min and max
             // Using Math.round() will give you a non-uniform distribution!
-            function getRandomInt(min, max)
-            {
+            function getRandomInt(min, max) {
                 return Math.floor(Math.random() * (max - min + 1)) + min;
             }
-            console.log("ohai");
-            var gap = gaps[getRandomInt(0, gaps.length - 1)];
-            var exclamation = exclamations[getRandomInt(0, exclamations.length - 1)];
+
+            var getNr = function(from, to) {
+                if(!window.location.search) {
+                    return getRandomInt(from, to);
+                }
+
+                var params = parse_url(window.location.search);
+                if(!params.l) {
+                    return getRandomInt(from, to);
+                }
+
+                var l = parseInt(params.l);
+                if((l < 0) || (l > to)) {
+                    return getRandomInt(from, to);
+                }
+
+                return l;
+            }
+
+            var nr = getNr(0, gaps.length - 1);
+
+            var gap = gaps[nr];
+            var exclamation = exclamations[nr % (exclamations.length - 1)];
             gap.exclamation = exclamation;
             gap.less_per_year = function() {
                 return this.less_per_week * 52;
@@ -160,7 +190,6 @@
             var template = unit.html();
             var out = Mustache.render(template, gap);
             unit.html(out);
-            console.log("kthxbye");
         })($);
     </script>
 
