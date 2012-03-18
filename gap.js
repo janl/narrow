@@ -238,6 +238,54 @@ var gaps = [
     him: 2488,
     her: 2392,
     group_size: 91
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Callcenter Agents",
+    group: "Callcenter",
+    him: 2039,
+    her: 1823,
+    group_size: 749
+  },
+  {
+    phrasing: "",
+    occupation: "Chemielaborantinnen",
+    group: "Chemieberufe",
+    him: 2249,
+    her: 1992,
+    group_size: 513
+  },
+  {
+    phrasing: "",
+    occupation: "Chemietechnikerinnen",
+    group: "Chemieberufe",
+    him: 3149,
+    her: 2732,
+    group_size: 159
+  },
+  {
+    phrasing: "",
+    occupation: "Chemikantinnen",
+    group: "Chemieberufe",
+    him: 2484,
+    her: 2202,
+    group_size: 266
+  },
+  {
+    phrasing: "",
+    occupation: "Chemikerinnen",
+    group: "Chemieberufe",
+    him: 3625,
+    her: 3055,
+    group_size: 428
+  },
+  {
+    phrasing: "",
+    occupation: "Chemisch-technische Assistentinnen",
+    group: "Chemieberufe",
+    him: 2251,
+    her: 2022,
+    group_size: 194
   }
 ];
 
