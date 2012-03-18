@@ -15,7 +15,7 @@ var gaps = [
     her: 2448,
     group_size: 125
   },
-{
+  { 
     phrasing: "",
     occupation: "Verkehrsplanerinnen",
     group: "",
