@@ -366,6 +366,38 @@ var gaps = [
     him: 2471,
     her: 2309,
     group_size: 81
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Datenverarbeitungsfachkraft",
+    group: "EDV / IT-Berufe",
+    him: 2304,
+    her: 2248,
+    group_size: 175
+  },
+  {
+    phrasing: "",
+    occupation: "Informatikerinnen",
+    group: "EDV / IT-Berufe",
+    him: 3357,
+    her: 3019,
+    group_size: 908
+  },
+  {
+    phrasing: "",
+    occupation: "IT-Beraterinnen",
+    group: "EDV / IT-Berufe",
+    him: 3418,
+    her: 3190,
+    group_size: 2305
+  },
+  {
+    phrasing: "",
+    occupation: "IT-Systemkauffrauen",
+    group: "EDV / IT-Berufe",
+    him: 2036,
+    her: 1969,
+    group_size: 316
   }
 ];
 
