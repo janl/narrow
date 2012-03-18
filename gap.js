@@ -398,6 +398,38 @@ var gaps = [
     him: 2036,
     her: 1969,
     group_size: 316
+  },
+  {
+    phrasing: "",
+    occupation: "Altenpflegerin",
+    group: "Gesundheitsberufe",
+    him: 2032,
+    her: 1979,
+    group_size: 350
+  },
+  {
+    phrasing: "",
+    occupation: "Altenpflegerin",
+    group: "Gesundheitsberufe",
+    him: 2032,
+    her: 1979,
+    group_size: 350
+  },
+  {
+    phrasing: "",
+    occupation: "Altenpflegerin",
+    group: "Gesundheitsberufe",
+    him: 2032,
+    her: 1979,
+    group_size: 350
+  },
+  {
+    phrasing: "",
+    occupation: "Altenpflegerin",
+    group: "Gesundheitsberufe",
+    him: 2032,
+    her: 1979,
+    group_size: 350
   }
 ];
 
