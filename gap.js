@@ -2,15 +2,17 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Ärztinnen",
-    earnings_gap: 88,
-    less_per_week: 275,
+    group: "",
+    him: 100,
+    her: 80,
     source: "ftp://ftp.bls.gov/pub/special.requests/lf/aat39.txt"
   },
   {
     phrasing: "",
     occupation: "Werbefachfrauen",
-    earnings_gap: 93,
-    less_per_week: 59,
+    group: "",
+    him: 100,
+    her: 66,
     source: "ftp://ftp.bls.gov/pub/special.requests/lf/aat39.txt"
   }
 
