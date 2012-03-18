@@ -218,15 +218,17 @@
 
             // list
             var groups = {};
+            var groups_length = 0;
             gaps.forEach(function(gap, index) {
                if(!groups[gap.group])  { // init group
                    groups[gap.group] = [];
+                   groups_length++;
                }
                groups[gap.group].push(index);
             });
 
             var list = $("#gaplist");
-            var idx = 0;
+            var idx = 1;
             var listml = '';
             listml += '<div class="span4">';
             for(var group in groups) {
@@ -238,7 +240,9 @@
                     var gap = gaps[gapNr];
                     listml += '<a href="?l=' + gapNr + '">' + gaps[gapNr].occupation + '</a><br>';
                 });
-                listml += '</div><div class="span4">';
+                if((idx++ % Math.ceil(groups_length / 3)) == 0) {
+                    listml += '</div><div class="span4">';
+                }
             }
             listml += "</div>";
             list.html(listml);
