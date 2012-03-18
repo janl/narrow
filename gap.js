@@ -1,21 +1,44 @@
 var gaps = [
   {
     phrasing: "",
-    occupation: "Ärztinnen",
+    occupation: "Architektinnen",
     group: "",
-    him: 100,
-    her: 80,
-    source: "ftp://ftp.bls.gov/pub/special.requests/lf/aat39.txt"
+    him: 2650,
+    her: 2479,
+    group_size: 1096
   },
   {
     phrasing: "",
-    occupation: "Werbefachfrauen",
+    occupation: "Raumplanerinnen",
     group: "",
-    him: 100,
-    her: 66,
-    source: "ftp://ftp.bls.gov/pub/special.requests/lf/aat39.txt"
+    him: 2816,
+    her: 2448,
+    group_size: 125
+  },
+{
+    phrasing: "",
+    occupation: "Verkehrsplanerinnen",
+    group: "",
+    him: 2797,
+    her: 2293,
+    group_size: 83
+  },
+  {
+    phrasing: "",
+    occupation: "Bankkauffrauen",
+    group: "",
+    him: 2765,
+    her: 2393,
+    group_size: 1884
+  },
+  {
+    phrasing: "",
+    occupation: "Buchhalterinnen",
+    group: "",
+    him: 2476,
+    her: 2108,
+    group_size: 1702
   }
-
 ];
 
 var exclamations = [
