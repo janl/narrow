@@ -2,7 +2,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Architektinnen",
-    group: "",
+    group: "Architekturberufe, Raumplanung",
     him: 2650,
     her: 2479,
     group_size: 1096
@@ -10,7 +10,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Raumplanerinnen",
-    group: "",
+    group: "Architekturberufe, Raumplanung",
     him: 2816,
     her: 2448,
     group_size: 125
@@ -18,7 +18,7 @@ var gaps = [
   { 
     phrasing: "",
     occupation: "Verkehrsplanerinnen",
-    group: "",
+    group: "Architekturberufe, Raumplanung",
     him: 2797,
     her: 2293,
     group_size: 83
@@ -26,7 +26,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Bankkauffrauen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2765,
     her: 2393,
     group_size: 1884
@@ -34,7 +34,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Buchhalterinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2476,
     her: 2108,
     group_size: 1702
@@ -42,7 +42,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Buchprüferinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 3004,
     her: 2788,
     group_size: 335
@@ -50,7 +50,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Finanzmaklerinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 3941,
     her: 3410,
     group_size: 93
@@ -58,7 +58,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Kreditsachbearbeiterinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2805,
     her: 2526,
     group_size: 327
@@ -66,7 +66,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Steuerberaterinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 3164,
     her: 2981,
     group_size: 241
@@ -74,7 +74,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Steuerfachangestellte",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2080,
     her: 1993,
     group_size: 773
@@ -82,7 +82,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Steuerfachgehilfinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2428,
     her: 1751,
     group_size: 108
@@ -90,7 +90,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Steuerfachwirtinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2480,
     her: 2466,
     group_size: 191
@@ -98,7 +98,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Vermögensberaterinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 3531,
     her: 3162,
     group_size: 199
@@ -106,7 +106,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Versicherungskauffrauen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2300,
     her: 2033,
     group_size: 520
@@ -114,7 +114,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Versicherungsvertreterinnen",
-    group: "",
+    group: "Bank- und Finanzberufe",
     him: 2512,
     her: 2117,
     group_size: 136
@@ -122,7 +122,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Bauingenieurinnen",
-    group: "",
+    group: "Bauberufe",
     him: 3046,
     her: 2699,
     group_size: 1264
@@ -130,7 +130,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Bauleiterinnen",
-    group: "",
+    group: "Bauberufe",
     him: 2898,
     her: 2495,
     group_size: 524
@@ -138,7 +138,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Bautechnikerinnen",
-    group: "",
+    group: "Bauberufe",
     him: 2528,
     her: 2206,
     group_size: 424
@@ -146,7 +146,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Landschaftsgärtnerinnen",
-    group: "",
+    group: "Bauberufe",
     him: 2012,
     her: 1884,
     group_size: 189
@@ -154,7 +154,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Finanzmaklerinnen",
-    group: "",
+    group: "dingsi",
     him: 3941,
     her: 3410,
     group_size: 93
@@ -162,7 +162,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Finanzmaklerinnen",
-    group: "",
+    group: "dingsi",
     him: 3941,
     her: 3410,
     group_size: 93
@@ -170,7 +170,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Finanzmaklerinnen",
-    group: "",
+    group: "dingsi",
     him: 3941,
     her: 3410,
     group_size: 93
@@ -178,7 +178,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Finanzmaklerinnen",
-    group: "",
+    group: "dingsi",
     him: 3941,
     her: 3410,
     group_size: 93
