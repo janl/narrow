@@ -78,15 +78,13 @@
         <br>
         <p>Das sind {{less_per_week}} € weniger im Monat und {{less_per_year}} € weniger im Jahr.</p>
         <div style="float:left;margin-top:20px">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://narrowthegapp.com/?i={$id}" data-lang="en" data-text="Women{$phrasing} {$occupation_short_version} make {$earnings_gap} cents to the dollar men earn #NarrowTheGap" data-count="vertical">Tweet</a>
-            <div class="fb-like" data-href="http://narrowthegapp.com/?i={$id}" data-send="false" data-width="50" data-show-faces="true" data-layout="box_count" style="margin-bottom:3px;top:-3px;padding-left:6px;"></div>
-            <g:plusone size="tall" href="http://narrowthegapp.com/?i={$id}"></g:plusone>
-            <a href="http://pinterest.com/pin/create/button/?url={'http://narrowthegapp.com/?i='|urlencode}{$id}&media=http%3A%2F%2Fnarrowthegapp.com%2Fimages%2Fnarrow-the-gapp.jpg" class="pin-it-button" count-layout="vertical">Pin It</a>
+            <a href="https://twitter.com/intent/tweet?&amp;related={{share.related}}&amp;text={{share.text}}&amp;url={{share.url}}&amp;via={{share.via}}&amp;lang=de"><img src="img/twitter.png" /></a>
+            <a href="http://www.facebook.com/sharer.php?u={{share.url}}&amp;t={{share.text}}"><img src="img/facebook.png" /></a>
+            <a id="plus1" href="javascript:loadPlusOne()"><img src="img/plusone.png" /></a>
         </div>
         <p align="right" style="margin-top:30px"><a class="btn btn-custom btn-large" href="">{{exclamation}} Zeig mir mehr &raquo;</a></p>
         <br style="clear:all;">
       </div>
-
       <div class="row">
         <div class="span4">
           <h2>Unfair and Illegal</h2>
@@ -191,6 +189,14 @@
             var out = Mustache.render(template, gap);
             unit.html(out);
         })($);
+
+        function loadPlusOne() {
+            var jsnode = document.createElement('script');
+            jsnode.setAttribute('type','text/javascript');
+            jsnode.setAttribute('src','https://apis.google.com/js/plusone.js');
+            document.getElementsByTagName('head')[0].appendChild(jsnode);
+            document.getElementById('plus1').innerHTML = "<g:plusone></g:plusone>";
+        }
     </script>
 
   </body>
