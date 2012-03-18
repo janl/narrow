@@ -74,9 +74,9 @@
     <div class="container">
       <!-- Main hero unit for a primary call to action -->
       <div class="hero-unit">
-        <h1><span style="color:#006DCC">{{occupation}}</span> verdienen <span style="color:red">{{earnings_gap}}&nbsp;cents</span> pro Euro den ein Mann, der denselben Job hat, verdient.</h1>
+        <h1><span style="color:#006DCC">{{occupation}}</span> verdienen <span style="color:red">{{on_the_euro}}&nbsp;cents</span> pro Euro den ein Mann, der denselben Job hat, verdient.</h1>
         <br>
-        <p>Das sind {{less_per_week}} € weniger im Monat und {{less_per_year}} € weniger im Jahr.</p>
+        <p>Das sind {{less_per_month}} € weniger im Monat und {{less_per_year}} € weniger im Jahr.</p>
         <div style="float:left;margin-top:20px">
             <a href="https://twitter.com/intent/tweet?&amp;related={{share.related}}&amp;text={{share.text}}&amp;url={{share.url}}&amp;via={{share.via}}&amp;lang=de"><img src="img/twitter.png" /></a>
             <a href="http://www.facebook.com/sharer.php?u={{share.url}}&amp;t={{share.text}}"><img src="img/facebook.png" /></a>
@@ -181,9 +181,27 @@
             var gap = gaps[nr];
             var exclamation = exclamations[nr % (exclamations.length - 1)];
             gap.exclamation = exclamation;
-            gap.less_per_year = function() {
-                return this.less_per_week * 52;
+            /*
+            Example (per month):
+                him: 100
+                her: 80
+                less_per_month: (him - her) = 20
+                less_per_year: (him - her) * 12 = 240
+                on_the_euro: him / 100 * her = 80
+            */
+
+            gap.less_per_month = function() {
+                return this.him - this.her;
             };
+
+            gap.less_per_year = function() {
+                return (this.him - this.her) * 12;
+            };
+
+            gap.on_the_euro = function() {
+                return Math.round(this.him / 100 * this.her);
+            }
+
             var unit = $(".hero-unit");
             var template = unit.html();
             var out = Mustache.render(template, gap);
@@ -191,6 +209,7 @@
         })($);
 
         function loadPlusOne() {
+            // thanks to phil from nomnomnom.de for inspiration
             var jsnode = document.createElement('script');
             jsnode.setAttribute('type','text/javascript');
             jsnode.setAttribute('src','https://apis.google.com/js/plusone.js');
