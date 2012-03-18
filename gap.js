@@ -286,6 +286,86 @@ var gaps = [
     him: 2251,
     her: 2022,
     group_size: 194
+  },
+  {
+    phrasing: "",
+    occupation: "Fachverkäuferinnen für Foto und Video",
+    group: "Dienstleistungsberufe",
+    him: 1972,
+    her: 1648,
+    group_size: 155
+  },
+  {
+    phrasing: "",
+    occupation: "Gärtnerinnen",
+    group: "Dienstleistungsberufe",
+    him: 1732,
+    her: 1581,
+    group_size: 134
+  },
+   {
+    phrasing: "",
+    occupation: "Hausmeisterinnen",
+    group: "Dienstleistungsberufe",
+    him: 2023,
+    her: 1954,
+    group_size: 260
+  },
+   {
+    phrasing: "",
+    occupation: "Kurierfahrerinnen",
+    group: "Dienstleistungsberufe",
+    him: 1603,
+    her: 1503,
+    group_size: 143
+  },
+  {
+    phrasing: "",
+    occupation: "Unternehmensberaterinnen",
+    group: "Dienstleistungsberufe",
+    him: 3565,
+    her: 3142,
+    group_size: 170
+  },
+  {
+    phrasing: "",
+    occupation: "Buchbinderinnen",
+    group: "Druckberufe",
+    him: 2003,
+    her: 1600,
+    group_size: 86
+  },
+  {
+    phrasing: "",
+    occupation: "Druckerinnen",
+    group: "Druckberufe",
+    him: 2324,
+    her: 1671,
+    group_size: 146
+  },
+  {
+    phrasing: "",
+    occupation: "DTP-Operatorinnen",
+    group: "Druckberufe",
+    him: 2240,
+    her: 2042,
+    group_size: 85
+  },
+  {
+    phrasing: "",
+    occupation: "Schriftsetzerinnen",
+    group: "Druckberufe",
+    him: 2471,
+    her: 2309,
+    group_size: 81
+  },
+  {
+    phrasing: "",
+    occupation: "Layouterinnen",
+    group: "Druckberufe",
+    him: 2471,
+    her: 2309,
+    group_size: 81
   }
 ];
 
