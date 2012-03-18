@@ -118,6 +118,14 @@
 
       <hr>
 
+      <div class="row" style="margin-top:20px;margin-bottom:10px;">
+        <div class="span12">
+            <h2>Tell people how it is in <em>your</em> line of work.</h2>
+        </div>
+      </div>
+      <div class="row" id="gaplist">
+      </div>
+
       <hr>
 
       <footer>
@@ -181,6 +189,7 @@
             var gap = gaps[nr];
             var exclamation = exclamations[nr % (exclamations.length - 1)];
             gap.exclamation = exclamation;
+
             /*
             Example (per month):
                 him: 100
@@ -206,6 +215,33 @@
             var template = unit.html();
             var out = Mustache.render(template, gap);
             unit.html(out);
+
+            // list
+            var groups = {};
+            gaps.forEach(function(gap, index) {
+               if(!groups[gap.group])  { // init group
+                   groups[gap.group] = [];
+               }
+               groups[gap.group].push(index);
+            });
+
+            var list = $("#gaplist");
+            var idx = 0;
+            var listml = '';
+            listml += '<div class="span4">';
+            for(var group in groups) {
+                listml += "<h3>" + group + "</h3>";
+                groups[group].forEach(function(gapNr) {
+                    if(!gaps[gapNr]) {
+                        console.log("indexed a gap that doesn't exist: " + gapNr);
+                    }
+                    var gap = gaps[gapNr];
+                    listml += '<a href="?l=' + gapNr + '">' + gaps[gapNr].occupation + '</a><br>';
+                });
+                listml += '</div><div class="span4">';
+            }
+            listml += "</div>";
+            list.html(listml);
         })($);
 
         function loadPlusOne() {
