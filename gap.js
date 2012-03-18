@@ -182,7 +182,7 @@ var gaps = [
     him: 3941,
     her: 3410,
     group_size: 93
-  },
+  }
 ];
 
 var exclamations = [
