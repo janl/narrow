@@ -187,7 +187,7 @@
                 her: 80
                 less_per_month: (him - her) = 20
                 less_per_year: (him - her) * 12 = 240
-                on_the_euro: him / 100 * her = 80
+                on_the_euro: 100 / him * her = 0.8
             */
 
             gap.less_per_month = function() {
@@ -199,7 +199,7 @@
             };
 
             gap.on_the_euro = function() {
-                return Math.round(this.him / 100 * this.her);
+                return Math.round(100 / this.him * this.her);
             }
 
             var unit = $(".hero-unit");
