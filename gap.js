@@ -73,7 +73,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Steuerfachangestellte",
+    occupation: "Weibliche Steuerfachangestellte",
     group: "Bank- und Finanzberufe",
     him: 2080,
     her: 1993,
@@ -153,35 +153,91 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Finanzmaklerinnen",
-    group: "dingsi",
-    him: 3941,
-    her: 3410,
-    group_size: 93
+    occupation: "Weibliche Empfangsangestellte",
+    group: "Büro- und Verwaltung",
+    him: 2039,
+    her: 1878,
+    group_size: 418
   },
   {
     phrasing: "",
-    occupation: "Finanzmaklerinnen",
-    group: "dingsi",
-    him: 3941,
-    her: 3410,
-    group_size: 93
+    occupation: "Weibliche Angestellte im Finanzwesen",
+    group: "Büro- und Verwaltung",
+    him: 2481,
+    her: 2006,
+    group_size: 2319
   },
   {
     phrasing: "",
-    occupation: "Finanzmaklerinnen",
-    group: "dingsi",
-    him: 3941,
-    her: 3410,
-    group_size: 93
+    occupation: "Bürokauffrauen",
+    group: "Büro- und Verwaltung",
+    him: 2028,
+    her: 1839,
+    group_size: 4652
   },
   {
     phrasing: "",
-    occupation: "Finanzmaklerinnen",
-    group: "dingsi",
-    him: 3941,
-    her: 3410,
-    group_size: 93
+    occupation: "Controllerinnen",
+    group: "Büro- und Verwaltung",
+    him: 3207,
+    her: 2726,
+    group_size: 144
+  },
+  {
+    phrasing: "",
+    occupation: "Direktionsassistentinnen",
+    group: "Büro- und Verwaltung",
+    him: 2791,
+    her: 2508,
+    group_size: 917
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Fachkräfte für Rechtsangelegenheiten",
+    group: "Büro- und Verwaltung",
+    him: 2335,
+    her: 1866,
+    group_size: 594
+  },
+  {
+    phrasing: "",
+    occupation: "Account Managerinnen",
+    group: "Büro- und Verwaltung",
+    him: 3391,
+    her: 2607,
+    group_size: 96
+  },
+  {
+    phrasing: "",
+    occupation: "Industriekauffrauen",
+    group: "Büro- und Verwaltung",
+    him: 2287,
+    her: 2006,
+    group_size: 2446
+  },
+  {
+    phrasing: "",
+    occupation: "Kassiererinnen",
+    group: "Büro- und Verwaltung",
+    him: 1791,
+    her: 1651,
+    group_size: 129
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Schalterangestellte",
+    group: "Büro- und Verwaltung",
+    him: 1791,
+    her: 1651,
+    group_size: 129
+  },
+  {
+    phrasing: "",
+    occupation: "Personalberaterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2488,
+    her: 2392,
+    group_size: 91
   }
 ];
 
