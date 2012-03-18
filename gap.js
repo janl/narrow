@@ -38,7 +38,7 @@ var gaps = [
     him: 2476,
     her: 2108,
     group_size: 1702
-  }
+  },
   {
     phrasing: "",
     occupation: "Buchprüferinnen",
