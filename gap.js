@@ -369,7 +369,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Weibliche Datenverarbeitungsfachkraft",
+    occupation: "Weibliche Datenverarbeitungsfachkräfte",
     group: "EDV / IT-Berufe",
     him: 2304,
     her: 2248,
