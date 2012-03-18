@@ -73,7 +73,7 @@
     <div id="fb-root"></div>
     <div class="container">
       <!-- Main hero unit for a primary call to action -->
-      <div class="hero-unit">
+      <div class="hero-unit" style="display:none">
         <h1><span style="color:#006DCC">{{occupation}}</span> verdienen <span style="color:red">{{on_the_euro}}&nbsp;Cent</span> pro Euro wie ein Mann mit demselben Job.</h1>
         <br>
         <p>Das sind {{less_per_month}} € weniger im Monat und {{less_per_year}} € weniger im Jahr.</p>
@@ -217,6 +217,7 @@
             var template = unit.html();
             var out = Mustache.render(template, gap);
             unit.html(out);
+			unit.fadeIn();
 
             // list
             var groups = {};
