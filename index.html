@@ -78,8 +78,8 @@
         <br>
         <p>Das sind {{less_per_month}} € weniger im Monat und {{less_per_year}} € weniger im Jahr.</p>
         <div style="float:left;margin-top:20px">
-            <a href="https://twitter.com/intent/tweet?&amp;related={{share.related}}&amp;text={{share.text}}&amp;url={{share.url}}&amp;via={{share.via}}&amp;lang=de"><img src="img/twitter.png" /></a>
-            <a href="http://www.facebook.com/sharer.php?u={{share.url}}&amp;t={{share.text}}"><img src="img/facebook.png" /></a>
+            <a href="https://twitter.com/intent/tweet?&amp;related={{share_related}}&amp;text={{share_text}}&amp;url={{share_url}}&amp;via={{share_via}}&amp;lang=de"><img src="img/twitter.png" /></a>
+            <a href="http://www.facebook.com/sharer.php?u={{share_url}}&amp;t={{share_text}}"><img src="img/facebook.png" /></a>
             <a id="plus1" href="javascript:loadPlusOne()"><img src="img/plusone.png" /></a>
         </div>
         <p align="right" style="margin-top:30px"><a class="btn btn-custom btn-large" href="/">{{exclamation}} Zeig mir mehr &raquo;</a></p>
@@ -212,6 +212,23 @@
             gap.on_the_euro = function() {
                 return Math.round(100 / this.him * this.her);
             }
+
+			gap.share_text = function() {
+				return this.occupation + " verdienen " + this.on_the_euro() + "&nbsp;Cent pro Euro wie ein Mann mit demselben Job.";
+			};
+
+			gap.share_url = function() {
+				return location.href;
+			};
+
+			gap.share_related = function() {
+				return "@narrow";
+			};
+
+			gap.share_via = function() {
+				return "narrow";
+			};
+
 
             var unit = $(".hero-unit");
             var template = unit.html();
