@@ -727,13 +727,37 @@ var gaps = [
     her: 1616,
     group_size: 142
   },
-    {
+  {
     phrasing: "",
     occupation: "Nahrungsmittelklassiererinnen",
     group: "Nahrungsmittelverarbeitung",
     him: 2188,
     her: 1616,
     group_size: 142
+  },
+  {
+    phrasing: "",
+    occupation: "Juristinnen",
+    group: "Rechtsberufe",
+    him: 3440,
+    her: 3203,
+    group_size: 1197
+  },
+  {
+    phrasing: "",
+    occupation: "Angestellte Rechtsanwältinnen",
+    group: "Rechtsberufe",
+    him: 3365,
+    her: 2750,
+    group_size: 274
+  },
+  {
+    phrasing: "",
+    occupation: "Rechtsanwaltsgehilfinnen",
+    group: "Rechtsberufe",
+    him: 2000,
+    her: 1780,
+    group_size: 210
   }
 ];
 
