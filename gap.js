@@ -602,10 +602,34 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Dozentinnen an Bildungseinrichtungen",
-    group: "Lehrererufe",
+    group: "Lehrerberufe",
     him: 2439,
     her: 2314,
     group_size: 114
+  },
+  {
+    phrasing: "",
+    occupation: "Marketing- und Vertriebsökonominnen",
+    group: "Marketing, Werbung, PR",
+    him: 3153,
+    her: 2655,
+    group_size: 231
+  },
+  {
+    phrasing: "",
+    occupation: "Marketingassistentinnen",
+    group: "Marketing, Werbung, PR",
+    him: 2454,
+    her: 2314,
+    group_size: 325
+  },
+  {
+    phrasing: "",
+    occupation: "Marketing- und Vertriebsökonominnen",
+    group: "Marketing, Werbung, PR",
+    him: 3153,
+    her: 2314,
+    group_size: 231
   }
 ];
 
