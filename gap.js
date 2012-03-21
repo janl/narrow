@@ -758,6 +758,38 @@ var gaps = [
     him: 2000,
     her: 1780,
     group_size: 210
+  },
+  {
+    phrasing: "",
+    occupation: "Erzieherinnen",
+    group: "Sozialberufe",
+    him: 2220,
+    her: 2102,
+    group_size: 822
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Angestellte in sonstigen Sozialberufen",
+    group: "Sozialberufe",
+    him: 2160,
+    her: 2071,
+    group_size: 626
+  },
+  {
+    phrasing: "",
+    occupation: "Sozialarbeiterinnen",
+    group: "Sozialberufe",
+    him: 2524,
+    her: 2284,
+    group_size: 515
+  },
+  {
+    phrasing: "",
+    occupation: "Sozialpädagoginnen",
+    group: "Sozialberufe",
+    him: 2616,
+    her: 2350,
+    group_size: 1232
   }
 ];
 
