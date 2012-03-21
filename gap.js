@@ -574,6 +574,22 @@ var gaps = [
     him: 3548,
     her: 3160,
     group_size: 1209
+  },
+  {
+    phrasing: "",
+    occupation: "Selbstständige Journalistinnen",
+    group: "Journalistische Berufe",
+    him: 2930,
+    her: 2402,
+    group_size: 101
+  },
+  {
+    phrasing: "",
+    occupation: "Pressereferentinnen",
+    group: "Journalistische Berufe",
+    him: 3072,
+    her: 2402,
+    group_size: 161
   }
 ];
 
