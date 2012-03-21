@@ -694,6 +694,46 @@ var gaps = [
     him: 2322,
     her: 2144,
     group_size: 200
+  },
+  {
+    phrasing: "",
+    occupation: "Bäckerinnen",
+    group: "Nahrungsmittelverarbeitung",
+    him: 1731,
+    her: 1592,
+    group_size: 182
+  },
+  {
+    phrasing: "",
+    occupation: "Fleischereifachverkäuferinnen",
+    group: "Nahrungsmittelverarbeitung",
+    him: 2197,
+    her: 1765,
+    group_size: 288
+  },
+  {
+    phrasing: "",
+    occupation: "Konditorinnen",
+    group: "Nahrungsmittelverarbeitung",
+    him: 2001,
+    her: 1737,
+    group_size: 112
+  },
+  {
+    phrasing: "",
+    occupation: "Nahrungsmittelkosterinnen",
+    group: "Nahrungsmittelverarbeitung",
+    him: 2188,
+    her: 1616,
+    group_size: 142
+  },
+    {
+    phrasing: "",
+    occupation: "Nahrungsmittelklassiererinnen",
+    group: "Nahrungsmittelverarbeitung",
+    him: 2188,
+    her: 1616,
+    group_size: 142
   }
 ];
 
