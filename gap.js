@@ -654,6 +654,46 @@ var gaps = [
     him: 3458,
     her: 3267,
     group_size: 163
+  },
+  {
+    phrasing: "",
+    occupation: "Werbegestalterinnen",
+    group: "Marketing, Werbung, PR",
+    him: 2243,
+    her: 2227,
+    group_size: 321
+  },
+  {
+    phrasing: "",
+    occupation: "Werbekauffrauen",
+    group: "Marketing, Werbung, PR",
+    him: 2373,
+    her: 2164,
+    group_size: 167
+  },
+  {
+    phrasing: "",
+    occupation: "Grafikdesignerinnen",
+    group: "Medien / Gestaltung",
+    him: 2544,
+    her: 2412,
+    group_size: 162
+  },
+  {
+    phrasing: "",
+    occupation: "Mediengestalterinnen",
+    group: "Medien / Gestaltung",
+    him: 2192,
+    her: 1990,
+    group_size: 327
+  },
+  {
+    phrasing: "",
+    occupation: "Webdesignerinnen",
+    group: "Medien / Gestaltung",
+    him: 2322,
+    her: 2144,
+    group_size: 200
   }
 ];
 
