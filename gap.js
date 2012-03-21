@@ -409,27 +409,67 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Altenpflegerin",
+    occupation: "Anästhesieschwestern",
     group: "Gesundheitsberufe",
-    him: 2032,
-    her: 1979,
-    group_size: 350
+    him: 2467,
+    her: 2310,
+    group_size: 181
   },
   {
     phrasing: "",
-    occupation: "Altenpflegerin",
+    occupation: "Angestellte Ärztinnen",
     group: "Gesundheitsberufe",
-    him: 2032,
-    her: 1979,
-    group_size: 350
+    him: 3672,
+    her: 3271,
+    group_size: 509
   },
   {
     phrasing: "",
-    occupation: "Altenpflegerin",
+    occupation: "Arzthelferinnen",
     group: "Gesundheitsberufe",
-    him: 2032,
-    her: 1979,
-    group_size: 350
+    him: 1705,
+    her: 1352,
+    group_size: 476
+  },
+  {
+    phrasing: "",
+    occupation: "Assistenzärztinnen",
+    group: "Gesundheitsberufe",
+    him: 3726,
+    her: 3264,
+    group_size: 139
+  },
+  {
+    phrasing: "",
+    occupation: "Einkäuferinnen",
+    group: "Handel",
+    him: 2376,
+    her: 2154,
+    group_size: 1199
+  },
+  {
+    phrasing: "",
+    occupation: "Einzelhandelskauffrauen",
+    group: "Handel",
+    him: 1789,
+    her: 1654,
+    group_size: 1166
+  },
+  {
+    phrasing: "",
+    occupation: "Filialleiterinnen",
+    group: "Handel",
+    him: 2223,
+    her: 1814,
+    group_size: 704
+  },
+  {
+    phrasing: "",
+    occupation: "Großhandelskauffrauen",
+    group: "Handel",
+    him: 2056,
+    her: 1861,
+    group_size: 1753
   }
 ];
 
