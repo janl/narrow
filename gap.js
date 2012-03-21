@@ -545,11 +545,35 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "",
+    occupation: "Chemieingenieurinnen",
     group: "Ingenieurberufe",
-    him: ,
-    her: ,
-    group_size: 
+    him: 3473,
+    her: 2980,
+    group_size: 430
+  },
+  {
+    phrasing: "",
+    occupation: "Elektroingenieurinnen",
+    group: "Ingenieurberufe",
+    him: 3434,
+    her: 3265,
+    group_size: 2263
+  },
+  {
+    phrasing: "",
+    occupation: "Maschinenbauingenieurinnen",
+    group: "Ingenieurberufe",
+    him: 3434,
+    her: 3167,
+    group_size: 3929
+  },
+  {
+    phrasing: "",
+    occupation: "Wirtschaftsingenieurinnen",
+    group: "Ingenieurberufe",
+    him: 3548,
+    her: 3160,
+    group_size: 1209
   }
 ];
 
