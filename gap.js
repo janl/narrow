@@ -620,16 +620,40 @@ var gaps = [
     occupation: "Marketingassistentinnen",
     group: "Marketing, Werbung, PR",
     him: 2454,
-    her: 2314,
+    her: 2350,
     group_size: 325
   },
   {
     phrasing: "",
-    occupation: "Marketing- und Vertriebsökonominnen",
+    occupation: "Weibliche Marketingfachkräfte",
     group: "Marketing, Werbung, PR",
-    him: 3153,
-    her: 2314,
-    group_size: 231
+    him: 2865,
+    her: 2763,
+    group_size: 413
+  },
+  {
+    phrasing: "",
+    occupation: "Marktforscherinnen",
+    group: "Marketing, Werbung, PR",
+    him: 2956,
+    her: 2823,
+    group_size: 123
+  },
+  {
+    phrasing: "",
+    occupation: "PR-Beraterinnen",
+    group: "Marketing, Werbung, PR",
+    him: 2999,
+    her: 2721,
+    group_size: 150
+  },
+  {
+    phrasing: "",
+    occupation: "PR-Managerinnen",
+    group: "Marketing, Werbung, PR",
+    him: 3458,
+    her: 3267,
+    group_size: 163
   }
 ];
 
