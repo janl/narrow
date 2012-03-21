@@ -470,6 +470,86 @@ var gaps = [
     him: 2056,
     her: 1861,
     group_size: 1753
+  },
+  {
+    phrasing: "",
+    occupation: "Hotelkauffrauen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1838,
+    her: 1551,
+    group_size: 176
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Hotelangestellte",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1838,
+    her: 1551,
+    group_size: 176
+  },
+  {
+    phrasing: "",
+    occupation: "Hotelfachfrauen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1780,
+    her: 1596,
+    group_size: 319
+  },
+  {
+    phrasing: "",
+    occupation: "Kellnerinnen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1680,
+    her: 1605,
+    group_size: 427
+  },
+  {
+    phrasing: "",
+    occupation: "Köchinnen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1683,
+    her: 1520,
+    group_size: 821
+  },
+  {
+    phrasing: "",
+    occupation: "Küchengehilfinnen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1612,
+    her: 1512,
+    group_size: 176
+  },
+  {
+    phrasing: "",
+    occupation: "Reisebegleiterinnen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1838,
+    her: 1802,
+    group_size: 128
+  },
+  {
+    phrasing: "",
+    occupation: "Reisebürokauffrauen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1849,
+    her: 1736,
+    group_size: 147
+  },
+  {
+    phrasing: "",
+    occupation: "Restaurantfachfrauen",
+    group: "Hotel, Gaststätten, Tourismus",
+    him: 1756,
+    her: 1499,
+    group_size: 183
+  },
+  {
+    phrasing: "",
+    occupation: "",
+    group: "Ingenieurberufe",
+    him: ,
+    her: ,
+    group_size: 
   }
 ];
 
@@ -485,5 +565,6 @@ var exclamations = [
   "Das stinkt zum Himmel!",
   "Das ist ja ungeheuerlich!",
   "Unfassbar!",
+  "Ernsthaft?!",
   "Epic Fail!"
 ];
