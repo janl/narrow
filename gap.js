@@ -474,9 +474,16 @@ var gaps = [
 ];
 
 var exclamations = [
-  "Lachhaft!",
+  "Wie ungerecht!",
   "Unsinn!",
+  "Ach Quatsch!",
   "Wahnsinn!",
   "Unglaublich!",
-  "Was?!"
+  "Was?!",
+  "Unerhört!",
+  "Ist das wahr?!",
+  "Das stinkt zum Himmel!",
+  "Das ist ja ungeheuerlich!",
+  "Unfassbar!",
+  "Epic Fail!"
 ];
