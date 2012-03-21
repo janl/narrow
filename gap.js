@@ -588,8 +588,24 @@ var gaps = [
     occupation: "Pressereferentinnen",
     group: "Journalistische Berufe",
     him: 3072,
-    her: 2402,
+    her: 2807,
     group_size: 161
+  },
+  {
+    phrasing: "",
+    occupation: "Redakteurinnen",
+    group: "Journalistische Berufe",
+    him: 2824,
+    her: 2472,
+    group_size: 704
+  },
+  {
+    phrasing: "",
+    occupation: "Dozentinnen an Bildungseinrichtungen",
+    group: "Lehrererufe",
+    him: 2439,
+    her: 2314,
+    group_size: 114
   }
 ];
 
