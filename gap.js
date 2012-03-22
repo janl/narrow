@@ -862,6 +862,22 @@ var gaps = [
     him: 2797,
     her: 2617,
     group_size: 213
+  },
+  {
+    phrasing: "",
+    occupation: "Diplom-Kauffrauen",
+    group: "Wirtschaftswissenschaftler_innen",
+    him: 3358,
+    her: 2944,
+    group_size: 3333
+  },
+  {
+    phrasing: "",
+    occupation: "Diplom-Betriebswirtinnen",
+    group: "Wirtschaftswissenschaftler_innen",
+    him: 3358,
+    her: 2944,
+    group_size: 3333
   }
 ];
 
