@@ -401,7 +401,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Altenpflegerin",
+    occupation: "Altenpflegerinnen",
     group: "Gesundheitsberufe",
     him: 2032,
     her: 1979,
