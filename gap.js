@@ -790,6 +790,78 @@ var gaps = [
     him: 2616,
     her: 2350,
     group_size: 1232
+  },
+  {
+    phrasing: "",
+    occupation: "Chemo- und Physikotechnikerinnen",
+    group: "Techniker_innen",
+    him: 2589,
+    her: 2153,
+    group_size: 89
+  },
+  {
+    phrasing: "",
+    occupation: "Maschinenbautechnikerinnen",
+    group: "Techniker_innen",
+    him: 2816,
+    her: 2677,
+    group_size: 2259
+  },
+  {
+    phrasing: "",
+    occupation: "Qualitätskontrolleurinnen",
+    group: "Techniker_innen",
+    him: 2412,
+    her: 1916,
+    group_size: 511
+  },
+  {
+    phrasing: "",
+    occupation: "Technische Zeichnerinnen",
+    group: "Techniker_innen",
+    him: 2082,
+    her: 1969,
+    group_size: 804
+  },
+  {
+    phrasing: "",
+    occupation: "Busfahrerinnen im Öffentlichen Personenverkehr",
+    group: "Transport",
+    him: 1817,
+    her: 1634,
+    group_size: 218
+  },
+  {
+    phrasing: "",
+    occupation: "Disponentinnen",
+    group: "Transport",
+    him: 2233,
+    her: 2097,
+    group_size: 383
+  },
+  {
+    phrasing: "",
+    occupation: "Stellwerksbedienerinnen",
+    group: "Transport",
+    him: 1946,
+    her: 1818,
+    group_size: 92
+  },
+  {
+    phrasing: "",
+    occupation: "Übersetzerinnen",
+    group: "Übersetzer_innen / Dolmetscher_innen",
+    him: 2797,
+    her: 2617,
+    group_size: 213
+  },
+  {
+    phrasing: "",
+    occupation: "Dolmetscherinnen",
+    group: "Übersetzer_innen / Dolmetscher_innen",
+    him: 2797,
+    her: 2617,
+    group_size: 213
   }
 ];
 
