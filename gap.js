@@ -801,19 +801,19 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Physikotechnikerinnen",
-    group: "Techniker_innen",
-    him: 2589,
-    her: 2153,
-    group_size: 89
-  },
-  {
-    phrasing: "",
     occupation: "Maschinenbautechnikerinnen",
     group: "Techniker_innen",
     him: 2816,
     her: 2677,
     group_size: 2259
+  },
+  {
+    phrasing: "",
+    occupation: "Physikotechnikerinnen",
+    group: "Techniker_innen",
+    him: 2589,
+    her: 2153,
+    group_size: 89
   },
   {
     phrasing: "",
@@ -857,7 +857,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Übersetzerinnen",
+    occupation: "Dolmetscherinnen",
     group: "Übersetzer_innen / Dolmetscher_innen",
     him: 2797,
     her: 2617,
@@ -865,7 +865,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Dolmetscherinnen",
+    occupation: "Übersetzerinnen",
     group: "Übersetzer_innen / Dolmetscher_innen",
     him: 2797,
     her: 2617,
@@ -889,7 +889,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Bibliothekswissenschaftlerinnen",
+    occupation: "Archivwissenschaftlerinnen",
     group: "Weitere Wissenschaftsberufe",
     him: 3082,
     her: 2534,
@@ -897,7 +897,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Archivwissenschaftlerinnen",
+    occupation: "Bibliothekswissenschaftlerinnen",
     group: "Weitere Wissenschaftsberufe",
     him: 3082,
     her: 2534,
@@ -921,11 +921,11 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Zoologinnen",
+    occupation: "Diplomsozialwissenschaftlerinnen",
     group: "Weitere Wissenschaftsberufe",
-    him: 2977,
-    her: 2698,
-    group_size: 191
+    him: 2840,
+    her: 2774,
+    group_size: 402
   },
   {
     phrasing: "",
@@ -945,6 +945,14 @@ var gaps = [
   },
   {
     phrasing: "",
+    occupation: "Historikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3137,
+    her: 2603,
+    group_size: 160
+  },
+   {
+    phrasing: "",
     occupation: "Kartografinnen",
     group: "Weitere Wissenschaftsberufe",
     him: 2647,
@@ -953,23 +961,7 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Vermessungsingenieurinnen",
-    group: "Weitere Wissenschaftsberufe",
-    him: 2647,
-    her: 2253,
-    group_size: 140
-  },
-  {
-    phrasing: "",
     occupation: "Mathematikerinnen",
-    group: "Weitere Wissenschaftsberufe",
-    him: 3719,
-    her: 3526,
-    group_size: 499
-  },
-  {
-    phrasing: "",
-    occupation: "Statistikerinnen",
     group: "Weitere Wissenschaftsberufe",
     him: 3719,
     her: 3526,
@@ -993,14 +985,6 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Historikerinnen",
-    group: "Weitere Wissenschaftsberufe",
-    him: 3137,
-    her: 2603,
-    group_size: 160
-  },
-  {
-    phrasing: "",
     occupation: "Soziologinnen",
     group: "Weitere Wissenschaftsberufe",
     him: 2840,
@@ -1009,20 +993,28 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Diplomsozialwissenschaftlerinnen",
+    occupation: "Statistikerinnen",
     group: "Weitere Wissenschaftsberufe",
-    him: 2840,
-    her: 2774,
-    group_size: 402
+    him: 3719,
+    her: 3526,
+    group_size: 499
   },
   {
     phrasing: "",
-    occupation: "Historikerinnen",
+    occupation: "Vermessungsingenieurinnen",
     group: "Weitere Wissenschaftsberufe",
-    him: 3137,
-    her: 2603,
-    group_size: 160
-  }
+    him: 2647,
+    her: 2253,
+    group_size: 140
+  },
+  {
+    phrasing: "",
+    occupation: "Zoologinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2977,
+    her: 2698,
+    group_size: 191
+  },
 ];
 
 var exclamations = [
