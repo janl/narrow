@@ -793,7 +793,15 @@ var gaps = [
   },
   {
     phrasing: "",
-    occupation: "Chemo- und Physikotechnikerinnen",
+    occupation: "Chemotechnikerinnen",
+    group: "Techniker_innen",
+    him: 2589,
+    her: 2153,
+    group_size: 89
+  },
+  {
+    phrasing: "",
+    occupation: "Physikotechnikerinnen",
     group: "Techniker_innen",
     him: 2589,
     her: 2153,
@@ -878,6 +886,142 @@ var gaps = [
     him: 3358,
     her: 2944,
     group_size: 3333
+  },
+  {
+    phrasing: "",
+    occupation: "Bibliothekswissenschaftlerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3082,
+    her: 2534,
+    group_size: 117
+  },
+  {
+    phrasing: "",
+    occupation: "Archivwissenschaftlerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3082,
+    her: 2534,
+    group_size: 117
+  },
+  {
+    phrasing: "",
+    occupation: "Biologinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2977,
+    her: 2698,
+    group_size: 191
+  },
+  {
+    phrasing: "",
+    occupation: "Botanikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2977,
+    her: 2698,
+    group_size: 191
+  },
+  {
+    phrasing: "",
+    occupation: "Zoologinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2977,
+    her: 2698,
+    group_size: 191
+  },
+  {
+    phrasing: "",
+    occupation: "Geologinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3174,
+    her: 2786,
+    group_size: 162
+  },
+  {
+    phrasing: "",
+    occupation: "Geophysikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3174,
+    her: 2786,
+    group_size: 162
+  },
+  {
+    phrasing: "",
+    occupation: "Kartografinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2647,
+    her: 2253,
+    group_size: 140
+  },
+  {
+    phrasing: "",
+    occupation: "Vermessungsingenieurinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2647,
+    her: 2253,
+    group_size: 140
+  },
+  {
+    phrasing: "",
+    occupation: "Mathematikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3719,
+    her: 3526,
+    group_size: 499
+  },
+  {
+    phrasing: "",
+    occupation: "Statistikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3719,
+    her: 3526,
+    group_size: 499
+  },
+  {
+    phrasing: "",
+    occupation: "Physikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3557,
+    her: 3348,
+    group_size: 722
+  },
+  {
+    phrasing: "",
+    occupation: "Politologinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3137,
+    her: 2603,
+    group_size: 160
+  },
+  {
+    phrasing: "",
+    occupation: "Historikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3137,
+    her: 2603,
+    group_size: 160
+  },
+  {
+    phrasing: "",
+    occupation: "Soziologinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2840,
+    her: 2774,
+    group_size: 402
+  },
+  {
+    phrasing: "",
+    occupation: "Diplomsozialwissenschaftlerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 2840,
+    her: 2774,
+    group_size: 402
+  },
+  {
+    phrasing: "",
+    occupation: "Historikerinnen",
+    group: "Weitere Wissenschaftsberufe",
+    him: 3137,
+    her: 2603,
+    group_size: 160
   }
 ];
 
