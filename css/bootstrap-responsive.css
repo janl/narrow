@@ -21,9 +21,7 @@
   display: none;
   visibility: hidden;
 }
-  .span4 {
- text-align: justify;
-  }
+
 
 @media (max-width: 480px) {
   .nav-collapse {
