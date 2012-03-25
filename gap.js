@@ -1206,6 +1206,110 @@ var gaps = [
     him: 2585,
     her: 2441,
     group_size: 155
+  },
+  {
+    phrasing: "",
+    occupation: "Personaldisponentinnen",
+    group: "Büro- und Verwaltung",
+    him: 2227,
+    her: 2217,
+    group_size: 249
+  },
+  {
+    phrasing: "",
+    occupation: "Personalfachkauffrauen",
+    group: "Büro- und Verwaltung",
+    him: 2667,
+    her: 2604,
+    group_size: 288
+  },
+  {
+    phrasing: "",
+    occupation: "Personalleiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2784,
+    her: 2707,
+    group_size: 627
+  },
+  {
+    phrasing: "",
+    occupation: "Personalreferentinnen",
+    group: "Büro- und Verwaltung",
+    him: 2784,
+    her: 2707,
+    group_size: 627
+  },
+  {
+    phrasing: "",
+    occupation: "Personalsachbearbeiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2384,
+    her: 2206,
+    group_size: 799
+  },
+  {
+    phrasing: "",
+    occupation: "Sachbearbeiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2514,
+    her: 2180,
+    group_size: 203
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche staatliche Sozialverwaltungsbedienstete",
+    group: "Büro- und Verwaltung",
+    him: 2339,
+    her: 2313,
+    group_size: 113
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Steuerfachkräfte",
+    group: "Büro- und Verwaltung",
+    him: 2426,
+    her: 2114,
+    group_size: 191
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Zollfachkräfte",
+    group: "Büro- und Verwaltung",
+    him: 2426,
+    her: 2114,
+    group_size: 191
+  },
+  {
+    phrasing: "",
+    occupation: "Vertriebsleiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 3530,
+    her: 2770,
+    group_size: 183
+  },
+  {
+    phrasing: "",
+    occupation: "Vertriebsmitarbeiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2918,
+    her: 2675,
+    group_size: 342
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Verwaltungsangestellte",
+    group: "Büro- und Verwaltung",
+    him: 2359,
+    her: 2074,
+    group_size: 979
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Verwaltungsfachangestellte",
+    group: "Büro- und Verwaltung",
+    him: 2326,
+    her: 2066,
+    group_size: 730
   }
 ];
 
