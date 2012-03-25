@@ -1015,6 +1015,302 @@ var gaps = [
     her: 2698,
     group_size: 191
   },
+  {
+    phrasing: "",
+    occupation: "Biowissenschaftlerinnen",
+    group: "Gesundheitsberufe",
+    him: 3470,
+    her: 3219,
+    group_size: 131
+  },
+  {
+    phrasing: "",
+    occupation: "Ergotherapeutinnen",
+    group: "Gesundheitsberufe",
+    him: 2280,
+    her: 2038,
+    group_size: 189
+  },
+  {
+    phrasing: "",
+    occupation: "Helferinnen in der Krankenpflege",
+    group: "Gesundheitsberufe",
+    him: 1713,
+    her: 1640,
+    group_size: 264
+  },
+  {
+    phrasing: "",
+    occupation: "Krankenschwestern",
+    group: "Gesundheitsberufe",
+    him: 2136,
+    her: 2017,
+    group_size: 1326
+  },
+  {
+    phrasing: "",
+    occupation: "Operationsschwestern",
+    group: "Gesundheitsberufe",
+    him: 2420,
+    her: 2204,
+    group_size: 87
+  },
+  {
+    phrasing: "",
+    occupation: "Pharmareferentinnen",
+    group: "Gesundheitsberufe",
+    him: 3407,
+    her: 3030,
+    group_size: 83
+  },
+  {
+    phrasing: "",
+    occupation: "Physiotherapeutinnen",
+    group: "Gesundheitsberufe",
+    him: 2119,
+    her: 1952,
+    group_size: 330
+  },
+  {
+    phrasing: "",
+    occupation: "Psychatrieschwestern",
+    group: "Gesundheitsberufe",
+    him: 2376,
+    her: 2128,
+    group_size: 116
+  },
+  {
+    phrasing: "",
+    occupation: "Psychologinnen",
+    group: "Gesundheitsberufe",
+    him: 3118,
+    her: 2803,
+    group_size: 468
+  },
+  {
+    phrasing: "",
+    occupation: "Stationsleiterinnen in der Krankenpflege",
+    group: "Gesundheitsberufe",
+    him: 3035,
+    her: 2646,
+    group_size: 156
+  },
+  {
+    phrasing: "",
+    occupation: "Zahntechnikerinnen",
+    group: "Gesundheitsberufe",
+    him: 1927,
+    her: 1661,
+    group_size: 344
+  },
+  {
+    phrasing: "",
+    occupation: "Verkäuferinnen im Einzelhandel",
+    group: "Handel",
+    him: 1815,
+    her: 1649,
+    group_size: 1100
+  },
+  {
+    phrasing: "",
+    occupation: "Verkäuferinnen im Kfz-Gewerbe",
+    group: "Handel",
+    him: 2269,
+    her: 1990,
+    group_size: 254
+  },
+  {
+    phrasing: "",
+    occupation: "IT-Trainerinnen",
+    group: "EDV / IT-Berufe",
+    him: 2617,
+    her: 2309,
+    group_size: 110
+  },
+  {
+    phrasing: "",
+    occupation: "Leiterinnen der EDV",
+    group: "EDV / IT-Berufe",
+    him: 3185,
+    her: 2808,
+    group_size: 954
+  },
+  {
+    phrasing: "",
+    occupation: "Programmiererinnen",
+    group: "EDV / IT-Berufe",
+    him: 2805,
+    her: 2622,
+    group_size: 1095
+  },
+  {
+    phrasing: "",
+    occupation: "Softwareingenieurinnen",
+    group: "EDV / IT-Berufe",
+    him: 3503,
+    her: 3261,
+    group_size: 1306
+  },
+  {
+    phrasing: "",
+    occupation: "Netzwerkoperatorinnen",
+    group: "EDV / IT-Berufe",
+    him: 2548,
+    her: 2335,
+    group_size: 177
+  },
+  {
+    phrasing: "",
+    occupation: "Systemadministratorinnen",
+    group: "EDV / IT-Berufe",
+    him: 2571,
+    her: 2478,
+    group_size: 1530
+  },
+  {
+    phrasing: "",
+    occupation: "Systemanalytikerinnen",
+    group: "EDV / IT-Berufe",
+    him: 3351,
+    her: 2885,
+    group_size: 271
+  },
+  {
+    phrasing: "",
+    occupation: "Systemdesignerinnen",
+    group: "EDV / IT-Berufe",
+    him: 3133,
+    her: 2832,
+    group_size: 115
+  },
+  {
+    phrasing: "",
+    occupation: "Systemplanerinnen",
+    group: "EDV / IT-Berufe",
+    him: 3524,
+    her: 3021,
+    group_size: 346
+  },
+  {
+    phrasing: "",
+    occupation: "Webmasterinnen",
+    group: "EDV / IT-Berufe",
+    him: 2585,
+    her: 2441,
+    group_size: 155
+  },
+  {
+    phrasing: "",
+    occupation: "Webmanagerinnen",
+    group: "EDV / IT-Berufe",
+    him: 2585,
+    her: 2441,
+    group_size: 155
+  },
+  {
+    phrasing: "",
+    occupation: "Personaldisponentinnen",
+    group: "Büro- und Verwaltung",
+    him: 2227,
+    her: 2217,
+    group_size: 249
+  },
+  {
+    phrasing: "",
+    occupation: "Personalfachkauffrauen",
+    group: "Büro- und Verwaltung",
+    him: 2667,
+    her: 2604,
+    group_size: 288
+  },
+  {
+    phrasing: "",
+    occupation: "Personalleiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2784,
+    her: 2707,
+    group_size: 627
+  },
+  {
+    phrasing: "",
+    occupation: "Personalreferentinnen",
+    group: "Büro- und Verwaltung",
+    him: 2784,
+    her: 2707,
+    group_size: 627
+  },
+  {
+    phrasing: "",
+    occupation: "Personalsachbearbeiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2384,
+    her: 2206,
+    group_size: 799
+  },
+  {
+    phrasing: "",
+    occupation: "Sachbearbeiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2514,
+    her: 2180,
+    group_size: 203
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche staatliche Sozialverwaltungsbedienstete",
+    group: "Büro- und Verwaltung",
+    him: 2339,
+    her: 2313,
+    group_size: 113
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Steuerfachkräfte",
+    group: "Büro- und Verwaltung",
+    him: 2426,
+    her: 2114,
+    group_size: 191
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Zollfachkräfte",
+    group: "Büro- und Verwaltung",
+    him: 2426,
+    her: 2114,
+    group_size: 191
+  },
+  {
+    phrasing: "",
+    occupation: "Vertriebsleiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 3530,
+    her: 2770,
+    group_size: 183
+  },
+  {
+    phrasing: "",
+    occupation: "Vertriebsmitarbeiterinnen",
+    group: "Büro- und Verwaltung",
+    him: 2918,
+    her: 2675,
+    group_size: 342
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Verwaltungsangestellte",
+    group: "Büro- und Verwaltung",
+    him: 2359,
+    her: 2074,
+    group_size: 979
+  },
+  {
+    phrasing: "",
+    occupation: "Weibliche Verwaltungsfachangestellte",
+    group: "Büro- und Verwaltung",
+    him: 2326,
+    her: 2066,
+    group_size: 730
+  }
 ];
 
 var exclamations = [

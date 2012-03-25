@@ -3468,6 +3468,7 @@ a.thumbnail:hover {
   color: #ffffff;
 }
 .hero-unit {
+  display:none;
   padding: 50px 60px 0px 60px;
   margin-top: -10px;
   margin-bottom: 30px;
