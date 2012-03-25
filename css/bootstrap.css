@@ -3502,3 +3502,8 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+
+.sm-buttons {
+  float:left;
+  margin-top:20px
+}

@@ -30,6 +30,23 @@
     display: block;
     line-height: 18px;
   }
+  .hero-unit h1 {
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  .hero-unit {
+    padding: 20px 10px 10px 10px;
+  }
+  .hero-unit p.less {
+    font-size:small;
+    line-height:1.1em;
+  }
+  .sm-buttons {
+    float:right;
+    margin-top:5px
+  }
   input[class*="span"],
   select[class*="span"],
   textarea[class*="span"],
