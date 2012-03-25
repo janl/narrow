@@ -369,12 +369,27 @@
                }
                groups[gap.group].push(index);
             });
+            var group_list = [];
+            for(var group in groups) {
+                group_list.push(group);
+            }
+            // Sort umlauts the German way
+            group_list.sort(function(a, b) {
+                a.replace(/^Ä/, "AE")
+                 .replace(/^Ü/, "UE")
+                 .replace(/^Ö/, "OE")
+                >
+                b.replace(/^Ä/, "AE")
+                 .replace(/^Ü/, "UE")
+                 .replace(/^Ö/, "OE")
+                ? 1 : -1;
+            });
 
             var list = $("#gaplist");
             var idx = 1;
             var listml = '';
             listml += '<div class="span4">';
-            for(var group in groups) {
+            group_list.forEach(function(group) {
                 listml += "<h3>" + group + "</h3>";
                 groups[group].sort(function(a, b) {
                     if(!gaps[a]) {
@@ -385,7 +400,7 @@
                         console.log("sorting a gap that doesn't exist: " + b);
                         return 0;
                     }
-                    return gaps[a].occupation > gaps[b].occupation ? 1: -1;
+                    return gaps[a].occupation > gaps[b].occupation ? 1 : -1;
                 });
                 groups[group].forEach(function(gapNr) {
                     if(!gaps[gapNr]) {
@@ -397,7 +412,7 @@
                 if((idx++ % Math.ceil(groups_length / 3)) == 0) {
                     listml += '</div><div class="span4">';
                 }
-            }
+            });
             listml += "</div>";
             list.html(listml);
         })($);
