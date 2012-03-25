@@ -1102,6 +1102,22 @@ var gaps = [
     him: 1927,
     her: 1661,
     group_size: 344
+  },
+  {
+    phrasing: "",
+    occupation: "Verkäuferinnen im Einzelhandel",
+    group: "Handel",
+    him: 1815,
+    her: 1649,
+    group_size: 1100
+  },
+  {
+    phrasing: "",
+    occupation: "Verkäuferinnen im Kfz-Gewerbe",
+    group: "Handel",
+    him: 2269,
+    her: 1990,
+    group_size: 254
   }
 ];
 
