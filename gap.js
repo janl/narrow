@@ -154,7 +154,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Empfangsangestellte",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2039,
     her: 1878,
     group_size: 418
@@ -162,7 +162,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Angestellte im Finanzwesen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2481,
     her: 2006,
     group_size: 2319
@@ -170,7 +170,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Bürokauffrauen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2028,
     her: 1839,
     group_size: 4652
@@ -178,7 +178,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Controllerinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 3207,
     her: 2726,
     group_size: 144
@@ -186,7 +186,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Direktionsassistentinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2791,
     her: 2508,
     group_size: 917
@@ -194,7 +194,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Fachkräfte für Rechtsangelegenheiten",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2335,
     her: 1866,
     group_size: 594
@@ -202,7 +202,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Account Managerinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 3391,
     her: 2607,
     group_size: 96
@@ -210,7 +210,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Industriekauffrauen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2287,
     her: 2006,
     group_size: 2446
@@ -218,7 +218,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Kassiererinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 1791,
     her: 1651,
     group_size: 129
@@ -226,7 +226,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Schalterangestellte",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 1791,
     her: 1651,
     group_size: 129
@@ -234,7 +234,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Personalberaterinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2488,
     her: 2392,
     group_size: 91
@@ -1210,7 +1210,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Personaldisponentinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2227,
     her: 2217,
     group_size: 249
@@ -1218,7 +1218,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Personalfachkauffrauen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2667,
     her: 2604,
     group_size: 288
@@ -1226,7 +1226,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Personalleiterinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2784,
     her: 2707,
     group_size: 627
@@ -1234,7 +1234,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Personalreferentinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2784,
     her: 2707,
     group_size: 627
@@ -1242,7 +1242,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Personalsachbearbeiterinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2384,
     her: 2206,
     group_size: 799
@@ -1250,7 +1250,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Sachbearbeiterinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2514,
     her: 2180,
     group_size: 203
@@ -1258,7 +1258,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche staatliche Sozialverwaltungsbedienstete",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2339,
     her: 2313,
     group_size: 113
@@ -1266,7 +1266,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Steuerfachkräfte",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2426,
     her: 2114,
     group_size: 191
@@ -1274,7 +1274,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Zollfachkräfte",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2426,
     her: 2114,
     group_size: 191
@@ -1282,7 +1282,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Vertriebsleiterinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 3530,
     her: 2770,
     group_size: 183
@@ -1290,7 +1290,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Vertriebsmitarbeiterinnen",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2918,
     her: 2675,
     group_size: 342
@@ -1298,7 +1298,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Verwaltungsangestellte",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2359,
     her: 2074,
     group_size: 979
@@ -1306,7 +1306,7 @@ var gaps = [
   {
     phrasing: "",
     occupation: "Weibliche Verwaltungsfachangestellte",
-    group: "Büro- und Verwaltung",
+    group: "Büro- und Verwaltungsberufe",
     him: 2326,
     her: 2066,
     group_size: 730
