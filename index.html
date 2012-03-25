@@ -122,7 +122,7 @@
           <li><a href="http://www.boeckler.de/pdf/p_ta_lohnspiegel_berufsanfaengerinnen.pdf">WSI: Geschlechtsspezifische Lohndifferenzen nach dem Berufsstart und in der ersten Berufsphase</a></li>
           <li><a href="http://www.oecd.org/document/20/0,3746,de_34968570_35008930_49829460_1_1_1_1,00.html">OECD: Der große Unterschied – Frauen in Deutschland verdienen ein Fünftel weniger als Männer</a></li>
           <li><a href="http://infosys.iab.de/infoplattform/dokSelect.asp?pkyDokSelect=71&show=Lit">Institut für Arbeitsmarkt- und Berufsforschung: Weiterführende Literatur</a></li>
-          <li><a href="http://www.equalpayday.de/">Webseite des Equal Pay Day</a></li>	
+          <li><a href="http://www.equalpayday.de/">Webseite des Equal Pay Day</a></li>
           </ul>
           <p>Welche Links sollten hier noch aufgelistet sein?
           <p><a class="btn" href="mailto:anne.wizorek/a/gmail.com">Schlag eine neue Quelle vor &raquo;</a></p>
@@ -151,7 +151,7 @@
 
       <hr>
 
-	  <a name="all-the-gaps"></a>
+      <a name="all-the-gaps"></a>
       <div class="row" style="margin-top:20px;margin-bottom:10px;">
         <div class="span12">
             <h2>Zeig allen, wie es in <em>deinem</em> Job aussieht:</h2>
@@ -335,28 +335,28 @@
                 return Math.round(100 / this.him * this.her);
             }
 
-			gap.share_text = function() {
-				return this.occupation + " verdienen " + this.on_the_euro() + "&nbsp;Cent pro Euro wie ein Mann mit demselben Job.";
-			};
+            gap.share_text = function() {
+                return this.occupation + " verdienen " + this.on_the_euro() + "&nbsp;Cent pro Euro wie ein Mann mit demselben Job.";
+            };
 
-			gap.share_url = function() {
-				return window.location.href.replace(/\/$/, "");
-			};
+            gap.share_url = function() {
+                return window.location.href.replace(/\/$/, "");
+            };
 
-			gap.share_related = function() {
-				return "@gleicherlohn";
-			};
+            gap.share_related = function() {
+                return "@gleicherlohn";
+            };
 
-			gap.share_via = function() {
-				return "gleicherlohn";
-			};
+            gap.share_via = function() {
+                return "gleicherlohn";
+            };
 
 
             var unit = $(".hero-unit");
             var template = unit.html();
             var out = Mustache.render(template, gap);
             unit.html(out);
-			unit.fadeIn();
+            unit.fadeIn();
 
             // list
             var groups = {};
