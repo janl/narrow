@@ -21,6 +21,7 @@
   display: none;
   visibility: hidden;
 }
+
 @media (max-width: 480px) {
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
@@ -28,6 +29,23 @@
   .page-header h1 small {
     display: block;
     line-height: 18px;
+  }
+  .hero-unit h1 {
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  .hero-unit {
+    padding: 20px 10px 10px 10px;
+  }
+  .hero-unit p.less {
+    font-size:small;
+    line-height:1.1em;
+  }
+  .sm-buttons {
+    float:right;
+    margin-top:5px
   }
   input[class*="span"],
   select[class*="span"],
@@ -103,6 +121,7 @@
     width: 100%;
   }
   .row {
+	  padding: 0 10px;
     margin-left: 0;
   }
   .row > [class*="span"], .row-fluid > [class*="span"] {
@@ -111,10 +130,14 @@
     width: auto;
     margin: 0;
   }
+  .span4 {
+	text-align: left;
+	  }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   .row {
-    margin-left: -20px;
+	  padding: 0 10px;
+    margin-left: -10px;
     *zoom: 1;
   }
   .row:before, .row:after {
@@ -138,7 +161,9 @@
     width: 166px;
   }
   .span4 {
-    width: 228px;
+    width: 210px;
+	margin-right: 5px;
+	text-align: left;
   }
   .span5 {
     width: 290px;
@@ -391,15 +416,25 @@
     overflow: hidden;
     height: 0;
   }
+  
 }
 @media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;
   }
+  .row {
+	  padding: 0 10px;
+	  margin-left: -10px;
+	}
+  .span4 {
+	  width: 280px;
+	  margin-right: 10px;
+	}
 }
 @media (min-width: 1200px) {
   .row {
-    margin-left: -30px;
+	  padding: 0 15px;
+    margin-left: -10px;
     *zoom: 1;
   }
   .row:before, .row:after {
@@ -423,7 +458,8 @@
     width: 270px;
   }
   .span4 {
-    width: 370px;
+    width: 340px;
+	margin-right: 10px;
   }
   .span5 {
     width: 470px;

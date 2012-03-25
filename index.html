@@ -3,17 +3,8 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Narrow the Gapp</title>
+    <title>gleicherlohn.de</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta itemprop="name" content="Narrow the Gapp">
-    <meta itemprop="image" content="http://narrowthegapp.comimg/narrow-the-gapp.jpg">
-    <meta name="author" content="">
-    <meta property="og:title" content="Narrow the Gapp" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://narrowthegapp.com/" />
-    <meta property="og:image" content="http://narrowthegapp.comimg/narrow-the-gapp.jpg" />
-    <meta property="og:site_name" content="Narrow the Gapp" />
-    <meta property="fb:admins" content="606837591" />
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -67,6 +58,18 @@
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-658988-9']);
+      _gaq.push(['_setDomainName', 'gleicherlohn.de']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head>
 
   <body>
@@ -76,13 +79,14 @@
       <div class="hero-unit">
         <h1><span style="color:#006DCC">{{occupation}}</span> verdienen <span style="color:red">{{on_the_euro}}&nbsp;Cent</span> für jeden Euro, den ihre männlichen Kollegen bekommen.</h1>
         <br>
-        <p>Das sind {{less_per_month}} € weniger im Monat und {{less_per_year}} € weniger im Jahr.</p>
-        <div style="float:left;margin-top:20px">
-            <a href="https://twitter.com/intent/tweet?&amp;related={{share.related}}&amp;text={{share.text}}&amp;url={{share.url}}&amp;via={{share.via}}&amp;lang=de"><img src="img/twitter.png" /></a>
-            <a href="http://www.facebook.com/sharer.php?u={{share.url}}&amp;t={{share.text}}"><img src="img/facebook.png" /></a>
+        <p class="less">Das sind {{less_per_month}} € weniger im Monat und {{less_per_year}} € weniger im Jahr.</p>
+        <div class="sm-buttons">
+            <a href="mailto:?subject={{share_text}}&amp;body={{share_text}} via {{share_url}}"><img src="img/mail.png" /></a>
+            <a href="https://twitter.com/intent/tweet?&amp;related={{share_related}}&amp;text={{share_text}}&amp;url={{share_url}}&amp;via={{share_via}}&amp;lang=de"><img src="img/twitter.png" /></a>
+            <a href="http://www.facebook.com/sharer.php?u={{share_url}}&amp;t={{share_text}}"><img src="img/facebook.png" /></a>
             <a id="plus1" href="javascript:loadPlusOne()"><img src="img/plusone.png" /></a>
         </div>
-        <p align="right" style="margin-top:30px"><a class="btn btn-custom btn-large" href="">{{exclamation}} Zeig mir mehr &raquo;</a></p>
+        <p align="right" style="margin-top:30px"><a class="btn btn-custom btn-large" href="/">{{exclamation}} Zeig mir mehr &raquo;</a></p>
         <p align="right" style="margin-top:5px;font-size:small;"><a href="#all-the-gaps">Zeig mir alle Berufe</a></p>
         <br style="clear:all;">
       </div>
@@ -118,8 +122,8 @@
           <li><a href="https://www.destatis.de/DE/PresseService/Presse/Pressemitteilungen/2012/03/PD12_101_621.html">Statistisches Bundesamt: 2011: Verdienstunterschiede von Frauen und Männern bleiben bestehen</a></li>
           <li><a href="http://www.boeckler.de/pdf/p_ta_lohnspiegel_berufsanfaengerinnen.pdf">WSI: Geschlechtsspezifische Lohndifferenzen nach dem Berufsstart und in der ersten Berufsphase</a></li>
           <li><a href="http://www.oecd.org/document/20/0,3746,de_34968570_35008930_49829460_1_1_1_1,00.html">OECD: Der große Unterschied – Frauen in Deutschland verdienen ein Fünftel weniger als Männer</a></li>
-          <li><a href="http://infosys.iab.de/infoplattform/dokSelect.asp?pkyDokSelect=71&show=Lit">Institut für Arbeitsmarkt- und Berufsforschung: Weiterführende Literatur</a></li>
-          <li><a href="http://www.equalpayday.de/">Webseite des Equal Pay Day</a></li>	
+          <li><a href="http://infosys.iab.de/infoplattform/dokSelect.asp?pkyDokSelect=71&amp;show=Lit">Institut für Arbeitsmarkt- und Berufsforschung: Weiterführende Literatur</a></li>
+          <li><a href="http://www.equalpayday.de/">Webseite des Equal Pay Day</a></li>
           </ul>
           <p>Welche Links sollten hier noch aufgelistet sein?
           <p><a class="btn" href="mailto:anne.wizorek/a/gmail.com">Schlag eine neue Quelle vor &raquo;</a></p>
@@ -148,7 +152,7 @@
 
       <hr>
 
-	  <a name="all-the-gaps"></a>
+      <a name="all-the-gaps"></a>
       <div class="row" style="margin-top:20px;margin-bottom:10px;">
         <div class="span12">
             <h2>Zeig allen, wie es in <em>deinem</em> Job aussieht:</h2>
@@ -161,9 +165,99 @@
 
       <footer>
         <p><a href="http://www.lohnspiegel.de/main/LohnundGehaltsCheck">Quelle</a>: <a href="http://www.boeckler.de/index_wsi.htm">Wirtschafts- und Sozialwissenschaftlichen Institut der Hans-Böckler-Stiftung</a>. Pay-Gap-Daten basierend auf Angaben von ca. 22.000 Frauen und Männern, die 2011 an der Online-Erhebung des WSI teilnahmen.</p>
-        <p>A <a href="http://ginatrapani.org">Gina Trapani</a> Production. Made with open data, <a href="https://github.com/janl/mustache.js">Mustache</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, insomnia, outrage, and hope. JS-ification by <a href="https://github.com/janl">Jan L</a>. <a href="http://github.com/janl/narrow">Fork this app on GitHub.</a></p>
+        <p>Based on a <a href="http://ginatrapani.org">Gina Trapani</a> <a href="http://narrowthegapp.com/" title="Narrow the Gapp">Production</a>. Made with open data, <a href="https://github.com/janl/mustache.js">Mustache</a>, <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, insomnia, outrage, and hope. German Data &amp; Idea: <a href="http://flavors.me/annewizorek" title="anne wizorek">Anne Wizorek</a>. JS-ification by <a href="https://github.com/janl">Jan L</a>. <a href="http://github.com/janl/narrow">Fork this app on GitHub.</a> <a id="imprintlink" href="#">Impressum.</a></p>
       </footer>
 
+   <div id="imprint" style="display:none">
+        Impressum nach Paragraph 5 Telemediengesetz:<br>
+        v.i.S.d.P: Jan Lehnardt<br>
+        Adalbertstr. 7-8<br>
+        10999 Berlin<br>
+        <br>
+        Eltern haften für Ihre Links:<br>
+
+
+        <p>1. INHALT DES ONLINEANGEBOTES</p>
+
+        <p>Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit,
+        Vollständigkeit oder Qualität der bereitgestellten Informationen.
+        Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder
+        ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der
+        dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und
+        unvollständiger Informationen verursacht wurden, sind grundsätzlich
+        ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches
+        oder grob fahrlässiges Verschulden vorliegt. Alle Angebote sind
+        freibleibend und unverbindlich.</p>
+
+        <p>Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das
+        gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu
+        löschen oder die Veröffentlichung zeitweise oder endgültig
+        einzustellen.</p>
+
+        <p>2. VERWEISE UND LINKS</p>
+
+        <p>Bei direkten oder indirekten Verweisen auf fremde Webseiten
+        ("Hyperlinks"), die außerhalb des Verantwortungsbereiches des Autors
+        liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall in
+        Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es ihm
+        technisch möglich und zumutbar wäre, die Nutzung im Falle rechtswidriger
+        Inhalte zu verhindern. Der Autor erklärt hiermit ausdrücklich, dass zum
+        Zeitpunkt der Linksetzung keine illegalen Inhalte auf den zu verlinkenden
+        Seiten erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die
+        Inhalte oder die Urheberschaft der gelinkten/verknüpften Seiten hat der
+        Autor keinerlei Einfluss. Deshalb distanziert er sich hiermit ausdrücklich
+        von allen Inhalten aller gelinkten /verknüpften Seiten, die nach der
+        Linksetzung verändert wurden. Diese Feststellung gilt für alle innerhalb
+        des eigenen Internetangebotes gesetzten Links und Verweise sowie für
+        Fremdeinträge in vom Autor eingerichteten Gästebüchern, Diskussionsforen
+        und Mailinglisten. Für illegale, fehlerhafte oder unvollständige Inhalte
+        und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung
+        solcherart dargebotener Informationen entstehen, haftet allein der Anbieter
+        der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf
+        die jeweilige Veröffentlichung lediglich verweist.</p>
+
+        <p>3. URHEBER- UND KENNZEICHENRECHT</p>
+
+        <p>Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der
+        verwendeten Grafiken, Tondokumente, Videosequenzen und Texte zu beachten,
+        von ihm selbst erstellte Grafiken, Tondokumente, Videosequenzen und Texte
+        zu nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und
+        Texte zurückzugreifen. Alle innerhalb des Internetangebotes genannten und
+        ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen
+        uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und
+        den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund
+        der bloßen Nennung ist nicht der Schluss zu ziehen, dass Markenzeichen
+        nicht durch Rechte Dritter geschützt sind! Das Copyright für
+        veröffentlichte, vom Autor selbst erstellte Objekte bleibt allein beim
+        Autor der Seiten. Eine Vervielfältigung oder Verwendung solcher Grafiken,
+        Tondokumente, Videosequenzen und Texte in anderen elektronischen oder
+        gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht
+        gestattet.</p>
+
+        <p>4. DATENSCHUTZ</p>
+
+        <p>Sofern innerhalb des Internetangebotes die Möglichkeit zur Eingabe
+        persönlicher oder geschäftlicher Daten (Emailadressen, Namen, Anschriften)
+        besteht, so erfolgt die Preisgabe dieser Daten seitens des Nutzers auf
+        ausdrücklich freiwilliger Basis. Die Inanspruchnahme und Bezahlung aller
+        angebotenen Dienste ist - soweit technisch möglich und zumutbar - auch ohne
+        Angabe solcher Daten bzw. unter Angabe anonymisierter Daten oder eines
+        Pseudonyms gestattet. Die Nutzung der im Rahmen des Impressums oder
+        vergleichbarer Angaben veröffentlichten Kontaktdaten wie Postanschriften,
+        Telefon- und Faxnummern sowie Emailadressen durch Dritte zur Übersendung
+        von nicht ausdrücklich angeforderten Informationen ist nicht gestattet.
+        Rechtliche Schritte gegen die Versender von sogenannten Spam-Mails bei
+        Verstößen gegen dieses Verbot sind ausdrücklich vorbehalten.</p>
+
+        <p>5. RECHTSWIRKSAMKEIT DIESES HAFTUNGSAUSSCHLUSSES</p>
+
+        <p>Dieser Haftungsausschluss ist als Teil des Internetangebotes zu
+        betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder
+        einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht
+        mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile
+        des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt.</p>
+
+       </div>
     </div> <!-- /container -->
 
     <!-- Dumb hack to give Pinterest bookmarklet an image, argh -->
@@ -242,10 +336,28 @@
                 return Math.round(100 / this.him * this.her);
             }
 
+            gap.share_text = function() {
+                return this.occupation + " verdienen " + this.on_the_euro() + "&nbsp;Cent für jeden Euro, den ihre männlichen Kollegen bekommen.";
+            };
+
+            gap.share_url = function() {
+                return window.location.href.replace(/\/$/, "");
+            };
+
+            gap.share_related = function() {
+                return "@gleicherlohn";
+            };
+
+            gap.share_via = function() {
+                return "gleicherlohn";
+            };
+
+
             var unit = $(".hero-unit");
             var template = unit.html();
             var out = Mustache.render(template, gap);
             unit.html(out);
+            unit.fadeIn();
 
             // list
             var groups = {};
@@ -257,13 +369,39 @@
                }
                groups[gap.group].push(index);
             });
+            var group_list = [];
+            for(var group in groups) {
+                group_list.push(group);
+            }
+            // Sort umlauts the German way
+            group_list.sort(function(a, b) {
+                a.replace(/^Ä/, "AE")
+                 .replace(/^Ü/, "UE")
+                 .replace(/^Ö/, "OE")
+                >
+                b.replace(/^Ä/, "AE")
+                 .replace(/^Ü/, "UE")
+                 .replace(/^Ö/, "OE")
+                ? 1 : -1;
+            });
 
             var list = $("#gaplist");
             var idx = 1;
             var listml = '';
             listml += '<div class="span4">';
-            for(var group in groups) {
+            group_list.forEach(function(group) {
                 listml += "<h3>" + group + "</h3>";
+                groups[group].sort(function(a, b) {
+                    if(!gaps[a]) {
+                        console.log("sorting a gap that doesn't exist: " + a);
+                        return 0;
+                    }
+                    if(!gaps[b]) {
+                        console.log("sorting a gap that doesn't exist: " + b);
+                        return 0;
+                    }
+                    return gaps[a].occupation > gaps[b].occupation ? 1 : -1;
+                });
                 groups[group].forEach(function(gapNr) {
                     if(!gaps[gapNr]) {
                         console.log("indexed a gap that doesn't exist: " + gapNr);
@@ -274,7 +412,7 @@
                 if((idx++ % Math.ceil(groups_length / 3)) == 0) {
                     listml += '</div><div class="span4">';
                 }
-            }
+            });
             listml += "</div>";
             list.html(listml);
         })($);
@@ -287,7 +425,10 @@
             document.getElementsByTagName('head')[0].appendChild(jsnode);
             document.getElementById('plus1').innerHTML = "<g:plusone></g:plusone>";
         }
+        $("#imprintlink").click(function() {
+           $("#imprint").toggle();
+           return false;
+        });
     </script>
-
   </body>
 </html>
