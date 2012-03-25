@@ -1015,6 +1015,94 @@ var gaps = [
     her: 2698,
     group_size: 191
   },
+  {
+    phrasing: "",
+    occupation: "Biowissenschaftlerinnen",
+    group: "Gesundheitsberufe",
+    him: 3470,
+    her: 3219,
+    group_size: 131
+  },
+  {
+    phrasing: "",
+    occupation: "Ergotherapeutinnen",
+    group: "Gesundheitsberufe",
+    him: 2280,
+    her: 2038,
+    group_size: 189
+  },
+  {
+    phrasing: "",
+    occupation: "Helferinnen in der Krankenpflege",
+    group: "Gesundheitsberufe",
+    him: 1713,
+    her: 1640,
+    group_size: 264
+  },
+  {
+    phrasing: "",
+    occupation: "Krankenschwestern",
+    group: "Gesundheitsberufe",
+    him: 2136,
+    her: 2017,
+    group_size: 1326
+  },
+  {
+    phrasing: "",
+    occupation: "Operationsschwestern",
+    group: "Gesundheitsberufe",
+    him: 2420,
+    her: 2204,
+    group_size: 87
+  },
+  {
+    phrasing: "",
+    occupation: "Pharmareferentinnen",
+    group: "Gesundheitsberufe",
+    him: 3407,
+    her: 3030,
+    group_size: 83
+  },
+  {
+    phrasing: "",
+    occupation: "Physiotherapeutinnen",
+    group: "Gesundheitsberufe",
+    him: 2119,
+    her: 1952,
+    group_size: 330
+  },
+  {
+    phrasing: "",
+    occupation: "Psychatrieschwestern",
+    group: "Gesundheitsberufe",
+    him: 2376,
+    her: 2128,
+    group_size: 116
+  },
+  {
+    phrasing: "",
+    occupation: "Psychologinnen",
+    group: "Gesundheitsberufe",
+    him: 3118,
+    her: 2803,
+    group_size: 468
+  },
+  {
+    phrasing: "",
+    occupation: "Stationsleiterinnen in der Krankenpflege",
+    group: "Gesundheitsberufe",
+    him: 3035,
+    her: 2646,
+    group_size: 156
+  },
+  {
+    phrasing: "",
+    occupation: "Zahntechnikerinnen",
+    group: "Gesundheitsberufe",
+    him: 1927,
+    her: 1661,
+    group_size: 344
+  }
 ];
 
 var exclamations = [
