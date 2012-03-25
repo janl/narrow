@@ -376,6 +376,17 @@
             listml += '<div class="span4">';
             for(var group in groups) {
                 listml += "<h3>" + group + "</h3>";
+                groups[group].sort(function(a, b) {
+                    if(!gaps[a]) {
+                        console.log("sorting a gap that doesn't exist: " + a);
+                        return 0;
+                    }
+                    if(!gaps[b]) {
+                        console.log("sorting a gap that doesn't exist: " + b);
+                        return 0;
+                    }
+                    return gaps[a].occupation > gaps[b].occupation ? 1: -1;
+                });
                 groups[group].forEach(function(gapNr) {
                     if(!gaps[gapNr]) {
                         console.log("indexed a gap that doesn't exist: " + gapNr);
