@@ -340,7 +340,7 @@
 			};
 
 			gap.share_url = function() {
-				return location.href;
+				return window.location.href.replace(/\/$/, "");
 			};
 
 			gap.share_related = function() {
