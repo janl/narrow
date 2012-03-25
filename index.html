@@ -409,7 +409,7 @@
                     var gap = gaps[gapNr];
                     listml += '<a href="?l=' + gapNr + '">' + gaps[gapNr].occupation + '</a><br>';
                 });
-                if((idx++ % Math.ceil(groups_length / 3)) == 0) {
+                if((idx++ % Math.round(groups_length / 3)) == 0) {
                     listml += '</div><div class="span4">';
                 }
             });
