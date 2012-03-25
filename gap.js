@@ -1118,6 +1118,94 @@ var gaps = [
     him: 2269,
     her: 1990,
     group_size: 254
+  },
+  {
+    phrasing: "",
+    occupation: "IT-Trainerinnen",
+    group: "EDV / IT-Berufe",
+    him: 2617,
+    her: 2309,
+    group_size: 110
+  },
+  {
+    phrasing: "",
+    occupation: "Leiterinnen der EDV",
+    group: "EDV / IT-Berufe",
+    him: 3185,
+    her: 2808,
+    group_size: 954
+  },
+  {
+    phrasing: "",
+    occupation: "Programmiererinnen",
+    group: "EDV / IT-Berufe",
+    him: 2805,
+    her: 2622,
+    group_size: 1095
+  },
+  {
+    phrasing: "",
+    occupation: "Softwareingenieurinnen",
+    group: "EDV / IT-Berufe",
+    him: 3503,
+    her: 3261,
+    group_size: 1306
+  },
+  {
+    phrasing: "",
+    occupation: "Netzwerkoperatorinnen",
+    group: "EDV / IT-Berufe",
+    him: 2548,
+    her: 2335,
+    group_size: 177
+  },
+  {
+    phrasing: "",
+    occupation: "Systemadministratorinnen",
+    group: "EDV / IT-Berufe",
+    him: 2571,
+    her: 2478,
+    group_size: 1530
+  },
+  {
+    phrasing: "",
+    occupation: "Systemanalytikerinnen",
+    group: "EDV / IT-Berufe",
+    him: 3351,
+    her: 2885,
+    group_size: 271
+  },
+  {
+    phrasing: "",
+    occupation: "Systemdesignerinnen",
+    group: "EDV / IT-Berufe",
+    him: 3133,
+    her: 2832,
+    group_size: 115
+  },
+  {
+    phrasing: "",
+    occupation: "Systemplanerinnen",
+    group: "EDV / IT-Berufe",
+    him: 3524,
+    her: 3021,
+    group_size: 346
+  },
+  {
+    phrasing: "",
+    occupation: "Webmasterinnen",
+    group: "EDV / IT-Berufe",
+    him: 2585,
+    her: 2441,
+    group_size: 155
+  },
+  {
+    phrasing: "",
+    occupation: "Webmanagerinnen",
+    group: "EDV / IT-Berufe",
+    him: 2585,
+    her: 2441,
+    group_size: 155
   }
 ];
 
