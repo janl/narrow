@@ -330,7 +330,12 @@
             };
 
             gap.on_the_euro = function() {
-                return Math.round(100 / this.him * this.her);
+                //hack to prevent "100 cent für jeden Euro"
+                var diff_in_cent = (100 / this.him * this.her);
+                if(diff_in_cent >= 99.5) {
+                    diff_in_cent = 99;
+                }
+                return Math.round(diff_in_cent);
             }
 
             gap.share_text = function() {
